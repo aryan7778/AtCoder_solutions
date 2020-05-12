@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+#define fastIO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+using namespace std;
+
+int main()
+{
+  fastIO
+	long a,b,c,k;
+	cin >>a>>b>>c>>k;
+	if (k <= a){
+		cout << k;
+	}
+	else if (k > a && k <= a+b){
+		cout << a;
+	}
+	else if (k > a + b){
+		cout << a - (k - a - b);
+	}
+}
