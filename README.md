@@ -1,3 +1,2 @@
 # AtCoder_solutions
-My solutions
-Will be updated soon
+### All solutions are in C++
