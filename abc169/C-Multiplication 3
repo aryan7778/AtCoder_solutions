@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+#define ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+typedef long long ll;
+
+using namespace std;
+
+ll a;
+string b;
+int main(){
+  cin>>a>>b;
+  assert(b[1]=='.');
+  cout<<a*((b[0]-'0')*100+(b[2]-'0')*10+(b[3]-'0'))/100<<endl;
+  
+  return 0;
+}
